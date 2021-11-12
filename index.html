@@ -1,1 +1,81 @@
-Hello World.
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/glightbox.min.css">
+    </head>
+    <body>
+        <header class="hero-box">
+            <section class="hero-image-box">
+                <img class="hero-image" src="img/EmilyHeiberger-Color-Harmony.jpg" alt="Photoshop Project">
+            </section>
+            <section class="hero-text-box">
+                <h1 class="hero-heading">Welcome!</h1>
+                <p class="hero-text">This is my portfolio website for my foundation classes at CIA</p>
+            </section>
+        </header>
+        <!-- Begin Portfolio Gallery -->
+        <section class="portfolio-container">
+            <h1>Portfolio</h1>
+            <section class="portfolio-gallery">
+
+                <div class="gallery-item">
+                    <a class="glightbox" href="img/EmilyHeiberger-Color-Harmony.jpg">
+                        <img src="img/EmilyHeiberger-Color-Harmony.jpg" alt="" class="gallery-image">
+                    </a>
+                </div>
+
+                <div class="gallery-item">
+                    <a class="glightbox" href="img/Emily-Heiberger-Project-3.jpg">
+                        <img src="img/Emily-Heiberger-Project-3.jpg" alt="" class="gallery-image">
+                    </a>
+                </div>
+
+                <div class="gallery-item">
+                    <a class="glightbox" href="img/Project_3_-_1.jpg">
+                        <img src="img/Project_3_-_1.jpg" alt="" class="gallery-image">
+                    </a>
+                </div>
+
+                <div class="gallery-item">
+                    <a class="glightbox" href="img/Project_3_-_2.jpg">
+                        <img src="img/Project_3_-_2.jpg" alt="" class="gallery-image">
+                    </a>
+                </div>
+
+                <div class="gallery-item">
+                    <a class="glightbox" href="img/Paperweight.jpg">
+                        <img src="img/Paperweight.jpg" alt="" class="gallery-image">
+                    </a>
+                </div>
+
+                <div class="gallery-item">
+                    <a class="glightbox" href="img/Project_5.jpg">
+                        <img src="img/Project_5.jpg" alt="" class="gallery-image">
+                    </a>
+                </div>
+
+                <div class="gallery-item">
+                    <a class="glightbox" href="img/rhyton.jpg">
+                        <img src="img/rhyton.jpg" alt="" class="gallery-image">
+                    </a>
+                </div>
+
+                <div class="gallery-item">
+                    <a class="glightbox" href="img/totem.jpg">
+                        <img src="img/totem.jpg" alt="" class="gallery-image">
+                    </a>
+                </div>
+
+            </section>
+        </section>
+        <script src="js/glightbox.min.js"></script>
+        <script type="text/javascript">
+            const lightbox = GLightbox({ loop: true });
+        </script>
+    </body>
+</html>
